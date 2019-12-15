@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		// criamos uma instância do objeto XMLHttpRequest()
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+                console.log("Valor da propriedade readyState: " + xhttp.readyState);
+                console.log("Valor da propriedade status: " + xhttp.status);
+                console.log("Valor da propriedade responseText: " + xhttp.responseText);
+				var objetoJSON = JSON.parse(this.responseText);
+				console.log(objetoJSON);
+				console.log(objetoJSON.nome);
+		    }
+		};
+		xhttp.open("GET", "dados_json.txt", true); //inicia o pedido
+		xhttp.send(); // envia a petição ao servidor
+	</script>
+</head>
+<body>
+    <h2>Curso JSON</h2>
+</body>
+</html>

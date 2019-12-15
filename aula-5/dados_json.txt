@@ -1,0 +1,9 @@
+{
+	"nome":"Jorge",
+	"idade":35,
+	"veiculos":[
+		{"tipo":"auto", "marca":"Ford"},
+		{"tipo":"moto", "marca":"Honda"},
+		{"tipo":"caminhão", "marca":"Mercedes Benz"}
+	]
+}
