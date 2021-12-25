@@ -1,5 +1,8 @@
 # Curso de JSON
 ## InformaticaDP
+
+### [Vídeos do curso](https://www.youtube.com/watch?v=UHaWGC5HCqI&list=PLrAw40DbN0l0P8JZRrRUXYsFw98Q768Wl)
+
 ### Lista de aulas
 
 Aula 1 - Introdução  
